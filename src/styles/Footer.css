@@ -26,3 +26,21 @@
     font-size: 50px;
   }
 }
+
+.copyright{
+  margin-top: 2rem;
+}
+
+.footerIcon{
+ color: white;
+ margin: 1rem;
+
+}
+.footerIconDiv{
+  display: inline;
+  
+}
+
+.footerIcon:hover{
+  cursor:pointer;
+}

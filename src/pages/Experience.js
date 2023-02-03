@@ -6,6 +6,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
+import { Button } from "react-bootstrap";
 
 import "../styles/Experience.css";
 
@@ -100,7 +101,7 @@ function Experience() {
       </VerticalTimeline>
       <div className="resume">
         <p>Take a look at my resume! </p>
-        <button className="resumeButton" onClick={() => {window.open("ryanResume.pdf")}}>Resume</button>
+        <Button id="resumeButton" variant ="warning" onClick={() => {window.open("ryanResume.pdf")}}>Resume</Button>
       </div>
       
     </div>
