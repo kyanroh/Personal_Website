@@ -1,0 +1,33 @@
+.project {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project h1 {
+  margin-top: 3rem;
+  color: #3e497a;
+  font-size: 3rem;
+}
+.mainPic {
+  width: 30rem;
+  border-radius: 10px;
+}
+.btmImgSpace{
+  width: 10%;
+  height: 10%;
+}
+.project p {
+  font-size: 2rem;
+  color: #3e497a;
+  padding: 0 10rem;
+}
+
+.project svg {
+  font-size: 3rem;
+  color: #3e497a;
+}
+
+
